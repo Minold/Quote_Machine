@@ -57,20 +57,20 @@ function App() {
               marginRight: "10px",
               transition,
             }}
-            >
-              <FaTwitter color="white" />
-            </a>
-            <button
-              id="new-quote"
-              onClick={changeQuote}
-              style={{ backgroundColor: randomColor, transition }}
-            >
-              Change Quote
-            </button>
-          </div>
+          >
+            <FaTwitter color="white" />
+          </a>
+          <button
+            id="new-quote"
+            onClick={changeQuote}
+            style={{ backgroundColor: randomColor, transition }}
+          >
+            Change Quote
+          </button>
         </div>
       </div>
-    );
-  }
-  
-  export default App;
+    </div>
+  );
+}
+
+export default App;
